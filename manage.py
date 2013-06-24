@@ -1,4 +1,4 @@
-from flaskext.script import Manager
+from flask.ext.script import Manager
 import bf3
 
 manager = Manager(bf3.app)
